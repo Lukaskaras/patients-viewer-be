@@ -37,7 +37,7 @@ type RecentVitals {
 const patient1 = {
   id: "1",
   basicInfo: {
-    name: "John Doe",
+    name: "Miles Morales",
     age: 30,
     gender: "Male",
     bloodType: "O+",
@@ -57,7 +57,7 @@ const patient1 = {
 const patient2 = {
   id: "2",
   basicInfo: {
-    name: "Susan Smith",
+    name: "Mary Jane",
     age: 25,
     gender: "Female",
     bloodType: "A+",
@@ -77,7 +77,7 @@ const patient2 = {
 const patient3 = {
   id: "3",
   basicInfo: {
-    name: "Andrew Mason",
+    name: "Otto Octavius",
     age: 40,
     gender: "Male",
     bloodType: "AB+",
@@ -97,7 +97,7 @@ const patient3 = {
 const patient4 = {
   id: "4",
   basicInfo: {
-    name: "Patricia Doe",
+    name: "Aunt May",
     age: 28,
     gender: "Female",
     bloodType: "B+",
@@ -123,14 +123,14 @@ const patient5 = {
     bloodType: "O+",
   },
   medicalHistory: {
-    chronicConditions: ["Diabetes", "Hypertension"],
-    allergies: ["Penicillin", "Latex"],
-    currentMedications: ["Metformin", "Aspirin"],
+    chronicConditions: ["Bronchitis"],
+    allergies: ["Penicillin"],
+    currentMedications: ["Salbutamol"],
   },
   recentVitals: {
     bloodPressure: "120/80",
     heartRate: 80,
-    temperature: 36.9,
+    temperature: 36.8,
   },
 };
 
