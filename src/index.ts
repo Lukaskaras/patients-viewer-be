@@ -4,7 +4,7 @@ import { startStandaloneServer } from "@apollo/server/standalone";
 const typeDefs = `#graphql
 type Query {
   patient(id: ID!): Patient
-  allPatients: [Patient!]
+  allPatients: [Patient!]!
 }
 
 type Patient {
